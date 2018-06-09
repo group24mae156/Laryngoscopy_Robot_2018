@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /home/michael/chai3d
+make
+cd /home/michael/chai3d/bin/lin-x86_64
+sudo ./ver01
