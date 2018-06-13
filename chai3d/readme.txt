@@ -6,7 +6,7 @@ Quick installation instructions:
  1. Install Ubuntu 16.04
  2. Install the proprietary nvidia graphics drivers via the "additional driver" tool
  3. sudo apt install git
- 4. git clone https://github.com/group24mae156/Laryngoscopy_Robot_2018.git
+ 4. git clone https://github.com/group24mae156/Laryngoscopy_Robot_Clean.git
  5. sudo apt install libhidapi-dev libudev-dev libusb-1.0-0-dev libasound2-dev freeglut3-dev \
     build-essential cmake libudev-dev libxcursor-dev libxrandr-dev libxinerama-dev \
     qt5-default 

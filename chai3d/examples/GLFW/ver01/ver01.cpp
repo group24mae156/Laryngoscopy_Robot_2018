@@ -30,7 +30,7 @@
     POSSIBILITY OF SUCH DAMAGE. 
     \author   <http://www.chai3d.org>
     \author   Francois Conti
-    \author    Michael Berger
+    \author   Michael Berger
 */
 //==============================================================================
 
@@ -82,7 +82,7 @@ bool mirroredDisplay = false;
 bool showJoints = true;
 
 // have safety shutoff for too high velocity reading
-bool useVelocitySafety = false;
+bool useVelocitySafety = true;
 
 //------------------------------------------------------------------------------
 // DECLARED VARIABLES
@@ -219,7 +219,7 @@ std::vector<cVector3d> positions_unique;
 cVector3d a_position;
 
 // parameter for max linear velocity allowed
-double maxLinearVelocity = 1;
+double maxLinearVelocity = 0.6;
 
 // parameter for where haptic feedback kicks in
 double distanceTolerance = 0.01;
